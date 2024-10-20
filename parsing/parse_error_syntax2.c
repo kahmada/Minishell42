@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   parse_error_syntax2.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/31 15:34:41 by chourri           #+#    #+#             */
-/*   Updated: 2024/10/18 09:47:43 by chourri          ###   ########.fr       */
+/*   Updated: 2024/10/20 16:54:53 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static int	pipe_parsing(t_token *lst)
 	dt.fin = last_token(lst);
 	while (lst && (lst->type == SPAACE || lst->type == TAAB))
 		lst = lst->next;
-	if (lst->type == PIPE)
+	if (lst && lst->type == PIPE)
 		return (parse_error("near unexpected token `|'\n"), 1);
 	else if ((dt.fin)->type == PIPE)
 		return (parse_error("unexpected end of command after '|'\n"), 1);
