@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   tools2.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/27 12:08:45 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/17 20:32:38 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:13 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	free_token_list(t_token *lst)
 	t_token	*next;
 
 	current = lst;
-	while (current != NULL)
+	while (current != NULL)  
 	{
 		next = current->next;
 		free(current->data);

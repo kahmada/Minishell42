@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   herdoc_3.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/29 17:45:10 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/17 20:36:31 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:41:54 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	process_input_her(int tmp_fd, char *limiter, int flag, char **envp)
 	char	*expanded_line;
 
 	while (1)
-	{
+	{ 
 		line = readline("> ");
 		if (!line)
 		{

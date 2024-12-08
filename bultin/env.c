@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   env.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/28 18:28:47 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/14 18:40:45 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:41 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	print_env_vars(t_env *env)
 {
 	t_env	*tmp;
-
+  
 	tmp = env;
 	while (tmp)
 	{

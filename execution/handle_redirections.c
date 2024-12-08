@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   handle_redirections.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/13 19:03:35 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/17 20:37:45 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:41:38 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	count_args(char **args)
 	while (args[count] != NULL)
 		count++;
 	return (count);
-}
+}   
 
 void	process_redirect(t_command *cmd, int i)
 {

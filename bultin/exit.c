@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exit.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/02 13:31:20 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/14 18:29:15 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:46 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	just_spaces(char *str)
 {
 	int	i;
 
-	i = 0;
+	i = 0;  
 	while (str[i])
 	{
 		if (str[i] != ' ' && str[i] != '\t')

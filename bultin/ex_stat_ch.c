@@ -6,7 +6,7 @@
 /*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/30 16:56:50 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/13 20:49:25 by kahmada          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:44 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*manage_exit_status(int status, int set_flag)
 
 	if (set_flag)
 		current_status = status;
-	return (ft_itoa(current_status));
+	return (ft_itoa(current_status));  
 }
 
 int	is_builtin(char *cmd)

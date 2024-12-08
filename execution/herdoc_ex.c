@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   herdoc_ex.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/28 16:33:51 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/18 10:55:23 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:41:59 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ static void	handle_process(t_here_doc *heredoc)
 	unlink(heredoc->file_name);
 	if (heredoc->fd == -1)
 	{
-		perror("open");
+		perror("open");  
 		return ;
 	}
 	heredoc->cmd->fd_in = heredoc->fd;

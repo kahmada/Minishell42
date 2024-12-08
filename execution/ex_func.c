@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ex_func.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/29 17:47:43 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/18 14:22:01 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:41:33 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	handle_parent_signals(t_command *cmd)
 	free(cmd->ex);
 	signal(SIGQUIT, SIG_IGN);
 }
-
+    
 char	**handle_builtin_cmd(t_command *cmd, char **envp)
 {
 	handle_redirects(cmd);

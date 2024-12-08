@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exp_handle.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/29 17:36:56 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/17 20:39:13 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:49 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	handle_invalid_identifier(char **key, char **value)
 	ft_putstr_fd("minishell: export: ", 2);
 	ft_putstr_fd(*key, 2);
 	ft_putstr_fd(":not a valid identifier\n", 2);
-	free(*key);
+	free(*key);  
 	*key = NULL;
 	*value = NULL;
 }

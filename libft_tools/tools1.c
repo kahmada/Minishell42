@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   tools1.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 19:01:00 by chourri           #+#    #+#             */
-/*   Updated: 2024/10/14 14:53:48 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:10 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strcat(char *dest, const char *src)
 
 	if (!dest || !src)
 		return (NULL);
-	dest_len = 0;
+	dest_len = 0;  
 	i = 0;
 	while (dest[dest_len] != '\0')
 		dest_len++;

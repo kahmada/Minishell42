@@ -6,7 +6,7 @@
 /*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/29 17:34:37 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/17 18:20:50 by kahmada          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:39 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*create_env_string(t_env *env)
 {
-	int		var_len;
+	int		var_len;  
 	int		value_len;
 	char	*env_str;
 

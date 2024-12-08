@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   tools3.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/03 10:45:28 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/05 11:50:54 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:15 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_isalnum(int c)
 	return (0);
 }
 
-int	ft_isalpha(int c)
+int	ft_isalpha(int c)  
 {
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 		return (1);

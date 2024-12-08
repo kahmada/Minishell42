@@ -19,7 +19,7 @@ static char	**extract_paths_from_envp(char **envp)
 	if (!envp || !*envp)
 		return (NULL);
 	i = 0;
-	while (envp[i])
+	while (envp[i])  
 	{
 		if (ft_strncmp(envp[i], "PATH=", 5) == 0)
 			break ;

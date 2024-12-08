@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cd.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chourri <chourri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/25 14:27:16 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/18 12:25:37 by chourri          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:34 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	update_envp(t_env **envp, char *key, char *value)
 {
 	t_env	*tmp;
 
-	tmp = *envp;
+	tmp = *envp;  
 	while (tmp)
 	{
 		if (ft_strcmp(tmp->key, key) == 0)

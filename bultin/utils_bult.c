@@ -6,7 +6,7 @@
 /*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/25 15:38:03 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/15 20:52:46 by kahmada          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:59 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	set_env_value(t_env *new, char *value)
 {
 	new->value = ft_strdup(value);
-	if (!new->value)
+	if (!new->value) 
 	{
 		free(new->key);
 		free(new);

@@ -6,7 +6,7 @@
 /*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/20 17:29:48 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/17 16:48:04 by kahmada          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:54 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*append_value(const char *existing_value, const char *new_value)
 {
-	char	*result;
+	char	*result;  
 
 	result = malloc(ft_strlen(existing_value) + ft_strlen(new_value) + 1);
 	if (!result)

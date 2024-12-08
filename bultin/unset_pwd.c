@@ -6,7 +6,7 @@
 /*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/09 14:52:44 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/13 20:42:41 by kahmada          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:57 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	bult_pwd(t_command *cmd)
 {
 	char	*cwd;
-
+  
 	cwd = getcwd(NULL, 0);
 	if (cwd == NULL)
 	{

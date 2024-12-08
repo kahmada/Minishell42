@@ -6,7 +6,7 @@
 /*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/26 16:20:58 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/17 18:20:30 by kahmada          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:51 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	is_valid_variable_name(char *key)
 {
 	int	i;
-
+  
 	i = 0;
 	if (key[i] == '_')
 		i++;

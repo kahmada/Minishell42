@@ -6,7 +6,7 @@
 /*   By: kahmada <kahmada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 20:39:02 by kahmada           #+#    #+#             */
-/*   Updated: 2024/10/15 16:58:46 by kahmada          ###   ########.fr       */
+/*   Updated: 2024/12/08 21:42:04 by kahmada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	handle_redirect_in(char *filename)
 {
 	int		fd;
-	char	*ex;
+	char	*ex;  
 
 	if (filename[0] == '$' && filename[1] != '\0')
 	{
